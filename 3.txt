@@ -1,5 +1,5 @@
 
-                 THE QUERY (TOTALLY HYPOTHETICAL)
+                 THE QUERY
 
                  Give me all the employee names from companies founded before 2012
                  in order of their earliest startDate. Emit duplicates.
