@@ -1,15 +1,18 @@
 
-                 THE QUERY
+                 THE QUERY (UNDERSCORE VERSION)
 
                  Give me all the employee names from companies founded before 2012
                  in order of their earliest startDate. Emit duplicates.
 
 
-                 Expected result:
-
-                 [
-                   "Alon Salant",
-                   "Erin Swenson-Healey",
-                   "Bob Zoller",
-                   "Max Edmands"
-                 ]
+                 var _ = require('underscore');
+                  
+                 _(companies)
+                   .chain()
+                   .filter(function(company) { return company.founded < 2012 })
+                   .pluck('employees')
+                   .flatten()
+                   .sortBy('startDate')
+                   .pluck('name')
+                   .uniq()
+                   .value()

@@ -1,17 +1,30 @@
 
+                 THE DATA (WOEFULLY INCOMPLETE AND PROBABLY INCORRECT)
 
-
-
-
-                                  LAZY.JS
-
-
-                        it does less than underscore!
-                        (and lodash, etc etc)
-
-
-
-                        ------------------------------
-                        |  Max Edmands               |
-                        |  github.com/demands        |
-                        ------------------------------
+                 [
+                   {
+                     name: 'Good Eggs',
+                     founded: 2011,
+                     employees: [
+                       {name: "Alon Salant", startDate: 2011},
+                       {name: "Bob Zoller", startDate: 2011},
+                       {name: "Max Edmands", startDate: 2013}
+                     ]
+                   },
+                   {
+                     name: 'StrongLoop',
+                     founded: 2013,
+                     employees: [
+                       {name: "Bert Belder", startDate: 2013},
+                       {name: "Ben Noordhuis", startDate: 2013}
+                     ]
+                   },
+                   {
+                     name: 'Carbon Five',
+                     founded: 1999,
+                     employees: [
+                       {name: "Erin Swenson-Healey", startDate: 1999},
+                       {name: "Alon Salant", startDate: 1999}
+                     ]
+                   }
+                 ]

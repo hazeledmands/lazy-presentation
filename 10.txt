@@ -1,8 +1,0 @@
-
-                 FUNCTIONAL PROGRAMMING IS AWESOME
-                 
-                 and
-
-                 YOU SHOULD CONSIDER LAZY.JS
-
-                 http://danieltao.com/lazy.js/

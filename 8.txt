@@ -1,25 +1,16 @@
 
-                 WHAT'S THE DIFFERENCE?
+                 CAVEATS
 
-                 var _ = require('underscore');
-                  
-     original    _(companies)
-                   .chain()
-            1      .filter(function(company) { return company.founded < 2012 })
-            2      .pluck('employees')
-            3      .sortBy('startDate')
-            4      .pluck('name')
-            5      .uniq()
-                   .value()
+                 - Lazy is just for queries on lists and objects
+                   (no extra utilities - do one thing and do it well)
+                 
+                 - Lazy is 0.2.1
 
-                 ============================================
+                 - Lazy always wraps your initial object
+                   (making it less ideal for small, simple operations)
 
-                 var lazy = require('lazy.js');
-                  
-     original    lazy(companies)
-                   .filter(function(company) { return company.founded < 2012 })
-                   .pluck('employees')
-                   .sortBy('startDate')
-                   .pluck('name')
-                   .uniq()
-            1      .toArray()
+                 - Don't forget about native JavaScript!
+
+                   Object.keys
+                   Array.prototype.map
+                   etc

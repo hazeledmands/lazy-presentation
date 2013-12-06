@@ -4,12 +4,8 @@
                  var _ = require('underscore');
                   
                  _(companies)
-                   .chain()
-                   .filter(function(company) { return company.founded < 2012 })
-                   .pluck('employees')
-                   .sortBy('startDate')
-                   .pluck('name')
-                   .uniq()
+    icky =>        .chain()
+                   // do some stuff
                    .value()
 
                  ============================================
@@ -17,9 +13,5 @@
                  var lazy = require('lazy.js');
                   
                  lazy(companies)
-                   .filter(function(company) { return company.founded < 2012 })
-                   .pluck('employees')
-                   .sortBy('startDate')
-                   .pluck('name')
-                   .uniq()
+                   // do some stuff
                    .toArray()
