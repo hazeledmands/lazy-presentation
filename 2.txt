@@ -27,5 +27,5 @@
                        {name: "Erin Swenson-Healey", startDate: 1999},
                        {name: "Alon Salant", startDate: 1999},
                      ]
-                   },
-                   ...
+                   }
+                 ]
