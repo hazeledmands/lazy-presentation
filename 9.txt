@@ -1,8 +1,16 @@
 
-                 FUNCTIONAL PROGRAMMING IS AWESOME
+                 CAVEATS
+
+                 - Lazy is just for queries on lists and objects
+                   (no extra utilities - do one thing and do it well)
                  
-                 and
+                 - Lazy is 0.2.1
 
-                 YOU SHOULD CONSIDER LAZY.JS
+                 - Lazy always wraps your initial object
+                   (making it less ideal for small, simple operations)
 
-                 http://danieltao.com/lazy.js/
+                 - Don't forget about native JavaScript!
+
+                   Object.keys
+                   Array.prototype.map
+                   etc
