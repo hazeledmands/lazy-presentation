@@ -3,6 +3,6 @@
                  
                  and
 
-                 MORE PEOPLE SHOULD BE USING LAZY.JS
+                 YOU SHOULD CONSIDER LAZY.JS
 
                  http://danieltao.com/lazy.js/
