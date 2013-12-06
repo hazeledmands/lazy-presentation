@@ -1,0 +1,16 @@
+
+
+
+
+
+                                  LAZY.JS
+
+
+                        it does less than underscore!
+
+
+
+                        ------------------------------
+                        |  Max Edmands               |
+                        |  github.com/demands        |
+                        ------------------------------

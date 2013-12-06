@@ -1,0 +1,25 @@
+
+                 WHAT'S THE DIFFERENCE?
+
+                 var _ = require('underscore');
+                  
+     original    _(companies)
+                   .chain()
+            1      .filter(function(company) { return company.founded < 2012 })
+            2      .pluck('employees')
+            3      .sortBy('startDate')
+            4      .pluck('name')
+            5      .uniq()
+                   .value()
+
+                 ============================================
+
+                 var lazy = require('lazy.js');
+                  
+     original    lazy(companies)
+                   .filter(function(company) { return company.founded < 2012 })
+                   .pluck('employees')
+                   .sortBy('startDate')
+                   .pluck('name')
+                   .uniq()
+            1      .toArray()

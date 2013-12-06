@@ -1,0 +1,15 @@
+
+                 THE QUERY (TOTALLY HYPOTHETICAL)
+
+                 Give me all the employee names from companies founded before 2012
+                 in order of their earliest startDate. Emit duplicates.
+
+
+                 Expected result:
+
+                 [
+                   "Alon Salant",
+                   "Erin Swenson-Healey",
+                   "Bob Zoller",
+                   "Max Edmands"
+                 ]

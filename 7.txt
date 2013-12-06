@@ -1,0 +1,17 @@
+
+                 WHAT'S THE DIFFERENCE?
+
+                 var _ = require('underscore');
+                  
+                 _(companies)
+                   .chain()
+                   // do some stuff
+                   .value()
+
+                 ============================================
+
+                 var lazy = require('lazy.js');
+                  
+                 lazy(companies)
+                   // do some stuff
+                   .toArray()

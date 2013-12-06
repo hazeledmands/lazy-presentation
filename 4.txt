@@ -1,0 +1,17 @@
+
+                 THE QUERY
+
+                 Give me all the employee names from companies founded before 2012
+                 in order of their earliest startDate. Emit duplicates.
+
+
+                 var _ = require('underscore');
+                  
+                 _(companies)
+                   .chain()
+                   .filter(function(company) { return company.founded < 2012 })
+                   .pluck('employees')
+                   .sortBy('startDate')
+                   .pluck('name')
+                   .uniq()
+                   .value()

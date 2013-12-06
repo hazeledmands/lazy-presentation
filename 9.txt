@@ -1,0 +1,8 @@
+
+                 FUNCTIONAL PROGRAMMING IS AWESOME
+                 
+                 and
+
+                 MORE PEOPLE SHOULD BE USING LAZY.JS
+
+                 http://danieltao.com/lazy.js/
